@@ -1,50 +1,48 @@
-# Task 7 — Working with VPN’s
+# Task 8 — Working with VPNs
 
 **Author:** Likhith Bharadwaj Reddy  
 **Date:** 03-10-2025  
 
----
-
-## Objective
-The goal of this task was to understand how VPNs (Virtual Private Networks) work, configure one on my system, and verify how it changes my IP address and protects privacy.  
+## Objective  
+The goal of this task was to understand how VPNs (Virtual Private Networks) work, configure one on my system, and verify how it changes my IP address and helps with privacy.
 
 ---
 
-## Steps Performed
+## Steps Performed  
 1. Chose **ProtonVPN Free Tier** as the VPN provider.  
-2. Created an account on the ProtonVPN website.  
-3. Downloaded and installed the ProtonVPN client for Windows.  
-4. Logged in with my credentials and connected to the **Fastest Server** option.  
-5. Verified my IP before and after connection using:  
-   - `curl ifconfig.me` in the terminal  
-   - [https://whatismyipaddress.com](https://whatismyipaddress.com) in the browser  
-6. Browsed a few websites to confirm traffic was encrypted and working normally.  
-7. Disconnected the VPN and checked that my IP reverted back to my original ISP address.  
+2. Created an account on ProtonVPN.  
+3. Installed the ProtonVPN client on Windows.  
+4. Logged in and connected to the “Fastest Server” option.  
+5. Verified IP before and after using commands / websites:  
+   - `curl ifconfig.me`  
+   - `https://whatismyipaddress.com`  
+6. Browsed websites to ensure traffic was encrypted and functional.  
+7. Disconnected VPN and confirmed the IP reverted to the original.
 
 ---
 
-## Observations
-- When connected, my public IP changed from my ISP address in India to a ProtonVPN server address in another location.  
-- Browsing speed was slightly reduced, which is expected due to encryption and rerouting.  
-- Websites loaded normally, and HTTPS traffic worked without issues.  
-- Disconnecting restored my original IP and faster speeds.  
+## Observations & Learnings  
+
+- When connected, my public IP changed from my ISP’s address to a ProtonVPN server address.  
+- Browsing speed was slightly slower (expected, due to encryption overhead).  
+- Websites continued to load normally (HTTPS traffic worked).  
+- Disconnecting restored original IP and faster speed.  
+- **Key Learnings**:  
+  - VPN hides real IP and adds encryption  
+  - Useful for secure browsing, bypassing geo-restrictions  
+  - Doesn’t guarantee complete anonymity  
+  - Tradeoff: reduced speed  
 
 ---
 
-## Key Learnings
-- A VPN hides the real IP and adds a layer of encryption.  
-- It helps in securing browsing on public Wi-Fi and bypassing geo-restrictions.  
-- VPN cannot provide *complete* anonymity because the VPN provider can still log traffic if they choose.  
-- Speed reduction is one of the main trade-offs when using VPNs.  
 
+## Files & Structure
+
+- `commands.md` — Exact commands / steps followed  
+- `report.md` — Detailed report, analysis, answers  
+- `Screenshots/` — Folder containing all screenshot images  
 ---
 
-## Files in This Repository
-- `commands.md` → Exact commands/steps followed  
-- `report.md` → Detailed report with answers to interview questions  
-- `.gitignore` → Ignored system files  
+## Conclusion  
+This task gave me hands-on experience installing and using a VPN, observing how IPs change, and understanding tradeoffs like speed, privacy, and limitations.
 
----
-
-## Conclusion
-This task helped me gain hands-on experience with VPNs. I was able to successfully set up ProtonVPN, verify my IP changes, and understand the benefits and limitations of using a VPN for privacy and security.
