@@ -2,7 +2,6 @@
 
 **Author:** Likhith Bharadwaj Reddy  
 **Date:** 03-10-2025  
-
 ---
 
 ## 1. Introduction
